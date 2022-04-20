@@ -54,3 +54,12 @@ h2{
   font-size: 20px;
   padding: 5px;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: right;
+  text-decoration: none;
+}
+

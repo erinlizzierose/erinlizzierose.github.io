@@ -14,7 +14,7 @@ body {
 
 h2{
   color: #F433AB;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-size: 75px;
   font-family: 'Playfair Display', serif;
 }
@@ -30,7 +30,7 @@ h2{
 }
 
 .block-1{
-  background-color: #361134 ;
+  background-color: #361134 ; 
 }
 
 #box-container{
@@ -43,6 +43,14 @@ h2{
 
 .image-links{
   border: 4px solid #d1e1ec ;
-  Height: 200px;
-  Width: 200px;
+  Height: 400px;
+  Width: 400px;
+  margin-top: 20px;
+}
+
+.caption{
+  color: #FFEDE1;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  padding: 5px;
 }

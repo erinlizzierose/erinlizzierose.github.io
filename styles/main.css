@@ -12,19 +12,31 @@ body {
 h1{
 
   font-family: 'Send Flowers', 'Playfair Display', serif;
-  font-size: 4vw;
+  font-size: 5vw;
   border-bottom: 10px solid #0B0033;
   color: #E6AACE;
   padding-bottom: 10px;
   text-align: center;
 }
 
+h2{
+  margin-bottom: 5px;
+  font-family: 'Raleway', sans-serif; 
+}
+
+h3{
+  font-family: 'Courier Prime', monospace; 
+  font-size: 1.5vw;
+  color: #FC440F;
+  margin-top: 0px;
+}
+
 .title{
   font-size: 12vw;
   margin-bottom: 50px;
-  color: #FC440F
-
+  color: #FC440F;
 }
+ 
 
 .welcome{
   color: #E6AACE;
@@ -32,6 +44,7 @@ h1{
   font-size: 7vw;
   font-family: 'Playfair Display', serif;
   text-align: center;
+  
 }
 
 
@@ -39,7 +52,6 @@ h1{
   margin-left: 10vw;
   margin-right: 10vw;
 }
-
 
 
 .article-container{
@@ -68,14 +80,20 @@ h1{
 }
 
 .fa {
-  padding: 20px;
+  padding: 15px;
+  margin-left: 15px;
   font-size: 30px;
-  width: 500px;
-  text-align: center;
+  width: 10px;
+  align-items: center;
   text-decoration: none;
 }
 
-.footer{
-  padding: 50px 0 50px;
-  align-items: center;
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 15px;
+
 }
+

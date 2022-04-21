@@ -34,21 +34,21 @@ h1{
 }
 
 .block-text {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
-.block-1{
-  background-color: #361134 ; 
-}
 
-#box-container{
+
+.article-container{
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: auto;
   align-items: center;
+  background-color: #361134 ; 
+  width: 100%;
 }
 
 .image-links{

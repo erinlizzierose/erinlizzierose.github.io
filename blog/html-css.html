@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Technical blog </title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <h1>Lets Learn CSS- The <code>position</code> Property</h1>
+    <h2>Lets Get Positional!</h2>
+    <h3>Published: 21 April 2022</h3>
+    <br>
+    
+    <main>
+      <h2>What is the <code>position</code> property?</h2>
+        <p> The CSS position property helps to position elements within your document. There are different position values that you can use but today we are going 
+          to focus on:
+          <ul>
+            <li>Static</li>
+            <li>Relative</li>
+            <li>Absolute</li>
+            <li>Fixed</li>
+          </ul>
+          Once you have assigned a position property(aka relative, fixed ect) you can then further specify its locationon the page by assigning values for 
+          top, bottom, left and right.  If you do not declare a position property then it is by default <code>postion:static;</code>.
+          Static positioned elements (aka default elements) are not affected by top/bottom/right/left properties and are positioned according the the
+          flow of the page. So how do we move things out of the normal flow? Lets find out!  
+           </p>
+
+      <h2>position: relative;</h2>
+        <p> Its time for relative positioning.... but relative to what? Turns out this property means it is relative to its <em>normal</em> position. 
+        This position is almost exactly like <code>position:static;</code> except you can specify values for top/bottom/left/right. By specifying 
+        those values you can adjsut away from the <em>normal</em> position of the element. However, keep in mind this will not move any other elements
+        to accomadate the change- so you may find that you have gaps or even cover other elements. 
+        <img src="../images/relative-position.png" alt="relative-Example" class="center">
+      
+        </p>
+
+      <h2> position: absolute;</h2>
+        <p>
+          Are you <em>absolutely</em> sure where you want an element? With <code>position: absolute;</code>you can remove an element from 
+          the normal document flow and place an element anywhere on the page by specifying a top/bottom/right/left value. The 
+          rest of the page will render as though the element is not there at all. 
+          Its important to note that in order to apply <code>position: absolute;</code> to a child element the parent element must have
+          <code>position: relative</code>
+          <img src="../images/Absolute-position.png" alt="Absolute-Example" class="center">
+
+      
+        </p>
+
+      <h2>position: fixed;</h2>
+        <p>
+          <code>position:fixed;</code> positions your element relative to the viewport (aka screen). This means that even when you scroll on a page
+           the element will stay in the same place regardless of the position of the parent element. Like our other elements you can use top,
+            bottom, right, or left to poistion it.  A fixed element is removed from the flow of the document and does not leave a space where it would normally
+            have been located. <br>
+
+          <img src="../images/fixed-position.png" alt="Absolute-Example" class="center">
+
+
+        </p>
+
+      <p> Wanna try it yourself? The examples I showed above came from <em>mdn web docs</em> and you can try it
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position#try_it">here</a> </p>
+
+    </main>
+    
+  
+  
+  </body>
+</html>

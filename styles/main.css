@@ -4,18 +4,22 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.title{
+h1{
   color: #FC440F;
-  font-size: 200px;
   font-family: 'Send Flowers', cursive;
-  margin-bottom: 50px;
+  font-size: 4vw;
   border-bottom: 10px solid #011638;
+}
+
+.title{
+  font-size: 10vw;
+  margin-bottom: 50px;
 }
 
 .welcome{
   color: #F433AB;
   padding-bottom: 10px;
-  font-size: 75px;
+  font-size: 7vw;
   font-family: 'Playfair Display', serif;
 }
 
@@ -30,8 +34,8 @@ body {
 }
 
 .block-text {
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .block-1{
@@ -39,8 +43,9 @@ body {
 }
 
 #box-container{
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   height: auto;
   align-items: center;

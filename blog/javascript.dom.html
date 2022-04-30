@@ -49,11 +49,44 @@
 
       <h2>What is the DOM?</h2>
       <p>
+        The DOM, or document object model, is the way through which JavaScript interacts with content within a website-the HTML. It respresents the webpage in a structured, hierarchical way. A very simplified DOM 'tree' is seen below. 
+
+        <img src="../images/Dom Tree.png" alt="DOM Tree" class="center"></img>
+  
+        By using the DOM programmers can easily access and manipulate HTML elements by specifiying an ID, class or element name. One way you can interact with the DOM is by using JavaScript to change an HTML element. Here is an example of this. You could use the following code to select an element with the ID="test"<br><br>
+
+        <code> document.getElementById('test')</code> <br><br>
+
+        And if you wanted to grab the element with the id of 'test' and change its inner HTML text. <br><br>
+        <code>document.getElementById('test').innterHTML = "This is my new text"</code>
 
       </p>
 
       <h2> Data from Arrays and Objects</h2>
       <p>
+        Arrays and objects are two ways that you can collect data into a group. Lets talk about objects first. An object is used to respresent a thing (for example a person) <br><br>
+        <code> 
+          let sarah = {<br>
+            name: "Sarah",<br>
+            age: 27,<br>
+            partner: "John"<br>
+          }
+        </code> <br><br>
+        Objects have what is known as a <em>key-value pairs</em>. In the above example "name" would be a key and we can use that key to access the value, or information, stored in it- in this case the name "Sarah". To pull that data out of an object we can use a dot operator followed by the key name (example: <code>sarah.name</code>) or a square bracket notation along with the key in a string formart (example: <code>erin['age']</code>).<br><br>
+      </p>
+
+      <p> 
+        Now lets talk about <em> arrays</em>! An array is technically a type of object. The difference is that the data in an array is stored in an ordered collection where you can access the data based on the index location. It is like a sorted list that you can keep A LOT of stuff in. <br><br>
+
+        <code>let favFoods = ['rasberry', 'pasta', 'curry', 'cheese', 'oranges', 'cake']</code>
+        <br><br>
+
+        The 'index' is the location where eat item in the list is store. At [0] is raspberry at [1] is pasta and so on through the whole array. To access the information at a specific location you might do something like this <br><br>
+       <code>console.log(favFoods[3]);</code> 
+       <br><br>
+       This would print out 'cheese' in the console log because cheese is stored at [3] <br>
+       <em>hint: dont forget arrays start counting from 0, so cheese is the 4th item in the list but is at location [3] in the array</em>. 
+
 
       </p>
 

@@ -93,14 +93,14 @@ h3{
   padding: 5px;
 }
 
-.fa {
+/* .fa {
   padding: 1px;
   margin-left: 15px;
   font-size: 30px;
   width: 10px;
   align-items: center;
   text-decoration: none;
-}
+} */
 
 .center{
   display: block;
@@ -110,4 +110,20 @@ h3{
   padding-top: 15px;
 
 }
+ .contact-container{
+   width: 100%;
+   text-align: center;
+   font-weight: bold;
+   padding-bottom: .5em;
+   padding-top: .5em;
+   background-color: #F0F4EF;
+   color: #F0F4EF
+ }
+  
+ .contact-images{
+   display: inline-flex;
+   width: 2em;
+   height: 2em;
+   /* margin: 0px, 10px, 0px, 10px; */
 
+ }

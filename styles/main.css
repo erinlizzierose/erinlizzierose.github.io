@@ -76,6 +76,7 @@ h3{
   background-color: #370031; 
   width: 100%;
   padding-top: 30px;
+  text-decoration: none;
 }
 
 .image-links{
@@ -117,7 +118,8 @@ h3{
    padding-bottom: .5em;
    padding-top: .5em;
    background-color: #F0F4EF;
-   color: #F0F4EF
+   color: #F0F4EF;
+   text-decoration: none;
  }
   
  .contact-images{
@@ -126,4 +128,9 @@ h3{
    height: 2em;
    /* margin: 0px, 10px, 0px, 10px; */
 
+ }
+
+ .blockquote{
+   background-color: lightgray ;
+   width: 100%;
  }
